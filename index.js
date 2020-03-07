@@ -300,8 +300,8 @@ var projectSlides = new function() {
 
     this.makeTransition = async function() {
         var repo = (await projectSlides.slides[projectSlides.currentSlide]).children.item(1).innerText;
-        var repoURL = 'https://github.com/Antoine-BL/' + repo;
-        var siteURL = 'https://Antoine-BL.github.io/' + (repo == 'Antoine-BL.github.io' ? '' : repo);
+        var repoURL = 'https://github.com/TianshuoZ/' ;
+        var siteURL = 'https://TianshuoZ.github.io/' ;
         document.getElementById('btnViewRepo').onclick = null;
         document.getElementById('btnViewRepo').onclick = () => window.open(repoURL);
         document.getElementById('btnViewSite').onclick = null;
