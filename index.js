@@ -328,7 +328,7 @@ var projectSlides = new function() {
 
 async function preloadImages() {
     var me = new Image();  
-    me.src = 'me.png';
+    me.src = 'avatar.jpg';
     var right = new Image();
     right.src= 'right.png';
     var left = new Image();
